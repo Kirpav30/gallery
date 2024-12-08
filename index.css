@@ -1,0 +1,37 @@
+body {
+    background-image: url("img/heart.jpg"); /* Путь к вашему изображению */
+    background-size: cover; /* Заполнить всю область */
+    background-repeat: no-repeat; /* Не повторять изображение */
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Центрируем контент по горизонтали */
+    align-items: center; /* Центрируем контент по вертикали */
+    min-height: 100vh; /* Занимаем всю высоту экрана */
+    margin: 0; /* Убираем отступы */
+    background-color: #f0f0f0;
+}
+
+.gallery-container {
+    display: flex;
+    align-items: center; /* Выравниваем элементы по вертикали */
+
+}
+
+.gallery-image {
+    max-width: 80%; /* Максимальная ширина изображения */
+    max-height: 80vh; /* Максимальная высота изображения */
+}
+
+.gallery-button {
+    margin: 0 20px; /* Отступы от кнопок */
+    font-size: 24px; /* Размер кнопок */
+    cursor: pointer; /* Делаем кнопки кликабельными */
+    user-select: none; /* Не даем выделять текст на кнопках */
+    background: transparent;
+    border: none;
+    font-size: 48px; /* Размер шрифта кнопок */
+
+}
+
